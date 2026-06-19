@@ -31,3 +31,27 @@ const myfunction = function(){
     console.log("Hello World")
 }
 console.log(typeof  bigNumber)
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myYoutubename = "vanshkumardotcom"
+
+let anothername = "myyoutubename"
+anothername = "flareFx"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+  
+let userTwo = userOne
+
+userTwo.email = "vansh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
