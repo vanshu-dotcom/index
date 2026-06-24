@@ -5,7 +5,7 @@ const tinderUser = {}
     tinderUser.name = "Vansh"
     tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser = {
     email: "vansh@gmail.com",
@@ -28,7 +28,7 @@ const obj4 = {3: "c", 4: "d"}
 //const obj3 = Object.assign({}, obj1, obj2, obj4) // this will merge the two objects into one object
 
 const obj3 = {...obj1, ...obj2} // this will merge the two objects into one object
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -47,10 +47,23 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // this will return an array of keys of the object
-console.log(Object.values(tinderUser)); // this will return an array of values of the object
-console.log(Object.entries(tinderUser)); // this will return an array of key value pairs of the object
+// console.log(Object.keys(tinderUser)); // this will return an array of keys of the object
+// console.log(Object.values(tinderUser)); // this will return an array of values of the object
+// console.log(Object.entries(tinderUser)); // this will return an array of key value pairs of the object
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); // this will return true if the object has the property name
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); // this will return true if the object has the property name
+
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "vansh"
+}
+
+const {courseInstructor: Instructor} = course
+// console.log(courseInstructor);
+console.log(Instructor);
