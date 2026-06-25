@@ -1,51 +1,51 @@
 
-// function sayMyName(){
-//     console.log("V");
-//     console.log("A");
-//     console.log("N");
-//     console.log("S");
-//     console.log("H");
-// }
-// // sayMyName()
-
-// // function addTwoNumbers(number1 ,number2){   //Perameaters
-// //     console.log(number1 + number2);
-
-// // }
-
+function sayMyName(){
+    console.log("V");
+    console.log("A");
+    console.log("N");
+    console.log("S");
+    console.log("H");
+}
+// sayMyName()
 
 // function addTwoNumbers(number1 ,number2){   //Perameaters
-//     let result = number1 + number2
-//     return result    // isko ek baar return karne k baad dubra kuch bhi return nhi karega , agr vo return result k uper h to vo print hoga 
+//     console.log(number1 + number2);
+
 // }
 
-// const result = addTwoNumbers(3,5)
 
-// console.log("Result:", result);
+function addTwoNumbers(number1 ,number2){   //Perameaters
+    let result = number1 + number2
+    return result    // isko ek baar return karne k baad dubra kuch bhi return nhi karega , agr vo return result k uper h to vo print hoga 
+}
+
+const result = addTwoNumbers(3,5)
+
+console.log("Result:", result);
 
 
-// // addTwoNumbers(4,5)
-// // addTwoNumbers(4,"5")
-// // addTwoNumbers(4,"a")
-// // addTwoNumbers(4,null)  //Arguments
+// addTwoNumbers(4,5)
+// addTwoNumbers(4,"5")
+// addTwoNumbers(4,"a")
+// addTwoNumbers(4,null)  //Arguments
 
 
-// // function loginUserMessage(username){
-// function loginUserMessage(username = "sam"){
-//     // if(username === undefined){
-//     //     console.log("please enter a username");
-//     //     return
-//     // }
-//     if(!username){
-//         console.log("please enter a username");
-//         return
-//     }
-//     return `${username} just logged in`
-// }
+// function loginUserMessage(username){
+function loginUserMessage(username = "sam"){
+    // if(username === undefined){
+    //     console.log("please enter a username");
+    //     return
+    // }
+    if(!username){
+        console.log("please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
 
-// console.log(loginUserMessage("vansh"))
-// console.log(loginUserMessage())
-// console.log(loginUserMessage("vansh"))
+console.log(loginUserMessage("vansh"))
+console.log(loginUserMessage())
+console.log(loginUserMessage("vansh"))
 
 
 // function calculateCartPrice(...num1){
